@@ -1,10 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Runtime.Serialization;
 using System.Text;
 
 namespace HW6
 {
+    [Serializable]
+    [DataContract]
     public class PhoneBook
     {
         private string readWriteWritePath = @"D:\Web\Training\SoftServe\HomeWork\HW6\HW6\phones.txt";
